@@ -1,0 +1,37 @@
+{
+ "hub": {
+  "title": "Tàng Kinh Các",
+  "subtitle": "Thư viện khoá học tương tác · Phòng AD · Nhóm 1"
+ },
+ "members": [
+  "Ngô Đặng Ngọc Sơn",
+  "Trần Văn Hạnh",
+  "Trương Minh Khoa",
+  "Ninh Văn Toàn",
+  "Lê Tuấn Huy"
+ ],
+ "endpoint": "",
+ "sects": [
+  "Nghiên cứu phân hủy",
+  "Khối phổ",
+  "Thiết kế thí nghiệm & AQbD",
+  "Sắc ký lỏng",
+  "Phổ hồng ngoại",
+  "Độ hòa tan",
+  "Kiến thức chung",
+  "Quy chế, tuân thủ",
+  "Sắc ký lớp mỏng",
+  "Sắc ký khí",
+  "Kích cỡ hạt",
+  "Xử lý mẫu",
+  "Phân tích nhiệt",
+  "Quang phổ tử ngoại",
+  "Độ khuếch tán",
+  "Thuốc bán rắn",
+  "Thuốc dược liệu",
+  "Thẩm định",
+  "Các ấn phẩm và chương trình đào tạo của EDQM",
+  "Chemometrics"
+ ],
+ "courses": []
+}
