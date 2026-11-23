@@ -1,2 +1,2 @@
 /* hub-config.js — do build_hub.py ghi. Trang khoá học đọc file này để biết nơi ghi điểm. Không sửa tay. */
-window.TKC_CONFIG = {"endpoint": "", "members": ["Ngô Đặng Ngọc Sơn", "Trần Văn Hạnh", "Trương Minh Khoa", "Ninh Văn Toàn", "Lê Tuấn Huy"], "hub": "index.html", "v": "202611231906"};
+window.TKC_CONFIG = {"endpoint": "https://script.google.com/macros/s/AKfycbxaRBoA0XXjJcFdXWAgVRQrIlmf4AYa85rTWr9WnYFWfYtVzMyb5PVx0Svy5weJD4wZ4g/exec", "members": ["Ngô Đặng Ngọc Sơn", "Trần Văn Hạnh", "Trương Minh Khoa", "Ninh Văn Toàn", "Lê Tuấn Huy"], "hub": "index.html", "v": "202611232042"};
