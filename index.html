@@ -8,7 +8,7 @@
 <title>Tàng Kinh Các</title>
 <link rel="icon" href="data:,">
 <style>
-:root{--navy:#003A4F;--navy2:#0b5470;--gold:#CDC717;--teal:#E6F0F4;--bg:#F8F9FA;--total:#FCFBE6;--line:#E2E8F0;--ink:#14232b;--muted:#5d707a;--card:#fff;--ok:#17704a;--okbg:#e7f4ed;--bad:#b3261e;--warnbg:#f6f5d6;--warnline:#e6e39a;--serif:"Times New Roman",Times,"Noto Serif",serif}
+:root{--navy:#003A4F;--navy2:#0b5470;--gold:#CDC717;--teal:#E6F0F4;--bg:#F8F9FA;--total:#FCFBE6;--line:#E2E8F0;--ink:#14232b;--muted:#5d707a;--card:#fff;--ok:#17704a;--okbg:#e7f4ed;--bad:#b3261e;--warnbg:#f6f5d6;--warnline:#e6e39a;--head:Arimo,Arial,"Helvetica Neue",sans-serif}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Arimo,Arial,"Helvetica Neue",sans-serif;overflow-wrap:break-word;overflow-wrap:anywhere}
@@ -17,7 +17,7 @@ button{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--navy2);outline-offset:2px}
 img,svg{max-width:100%;height:auto}
 [hidden]{display:none!important}
-.serif{font-family:var(--serif)}
+.serif{font-family:var(--head)}
 .muted{color:var(--muted)}
 .sr{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 
@@ -27,7 +27,7 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 .stella-logo{height:34px;width:auto;color:#fff;flex:none;display:block}
 .hdiv{width:1px;height:34px;background:rgba(255,255,255,.28);flex:none}
 .brand{display:flex;flex-direction:column;gap:2px;flex:1 1 240px;min-width:0}
-.hub-title{font-family:var(--serif);font-size:22px;font-weight:700;letter-spacing:.02em;line-height:1.25}
+.hub-title{font-family:var(--head);font-size:22px;font-weight:700;letter-spacing:.02em;line-height:1.25}
 .hub-sub{font-size:13px;opacity:.88}
 .hchips{display:flex;flex-wrap:wrap;gap:8px}
 .hchip{padding:5px 12px;border-radius:6px;background:rgba(255,255,255,.13);font-size:13px;white-space:nowrap}
@@ -65,11 +65,11 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 
 /* ---- thẻ của tôi ---- */
 .me-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
-.seal{width:44px;height:44px;border-radius:6px;background:var(--teal);color:var(--navy);font-family:var(--serif);font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none}
+.seal{width:44px;height:44px;border-radius:6px;background:var(--teal);color:var(--navy);font-family:var(--head);font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none}
 .seal.r1{background:var(--gold)}.seal.r2{background:#D5DCE0}.seal.r3{background:#E9C9A8;color:#5a2d0c}
-.me-name{font-family:var(--serif);font-size:18px;font-weight:700;color:var(--navy);line-height:1.3}
+.me-name{font-family:var(--head);font-size:18px;font-weight:700;color:var(--navy);line-height:1.3}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
-.tbadge{padding:2px 10px;border-radius:6px;background:var(--gold);color:var(--navy);font-size:13px;font-weight:700;font-family:var(--serif)}
+.tbadge{padding:2px 10px;border-radius:6px;background:var(--gold);color:var(--navy);font-size:13px;font-weight:700;font-family:var(--head)}
 .tbadge.x{background:var(--navy);color:var(--gold)}
 .kv{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 10px;font-size:13.5px}
 .kv b{color:var(--navy)}
@@ -87,7 +87,7 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 .ladder li{display:flex;align-items:center;gap:10px;padding:6px 10px;border-radius:6px;border:1px solid transparent}
 .ladder li.on{background:var(--total);border-color:var(--gold)}
 .ladder .band{width:72px;flex:none;font-size:12.5px;color:var(--muted)}
-.ladder .tn{flex:1 1 auto;min-width:0;font-family:var(--serif);font-size:14.5px;font-weight:600;color:var(--navy)}
+.ladder .tn{flex:1 1 auto;min-width:0;font-family:var(--head);font-size:14.5px;font-weight:600;color:var(--navy)}
 .ladder li.on .tn{font-weight:700}
 .ladder .mk{font-size:12px;font-weight:700;color:var(--navy)}
 .top100{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-top:8px;padding:8px 10px;border-radius:6px;background:var(--navy);color:#fff}
@@ -96,12 +96,12 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 .top100.on{outline:3px solid var(--gold);outline-offset:1px}
 
 .rules{background:var(--warnbg);border:1px solid var(--warnline);border-radius:12px;padding:14px 16px}
-.rules h2{margin:0 0 6px;font-family:var(--serif);font-size:17px;color:var(--navy)}
+.rules h2{margin:0 0 6px;font-family:var(--head);font-size:17px;color:var(--navy)}
 .rules p{margin:0 0 8px;font-size:14px;line-height:1.55}.rules p:last-child{margin:0}
 
 /* ---- bảng xếp hạng ---- */
 .board-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 10px;border-bottom:2px solid var(--gold);padding-bottom:8px;margin-bottom:10px}
-.board-h h2{margin:0;font-family:var(--serif);font-size:21px;color:var(--navy)}
+.board-h h2{margin:0;font-family:var(--head);font-size:21px;color:var(--navy)}
 .board-h span{font-size:13px;color:var(--muted)}
 .bstatus{margin:0 0 10px;font-size:13.5px;color:var(--muted)}
 .bstatus.warn{color:var(--ink);background:var(--warnbg);border-left:4px solid var(--gold);padding:8px 12px;border-radius:0 6px 6px 0}
@@ -116,7 +116,7 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 .brow>span,.cmeta>span{padding:10px}
 .c-rank .seal{width:36px;height:36px;font-size:17px}
 .c-name b{display:block;font-size:15px;color:var(--navy)}
-.c-name .t{font-family:var(--serif);font-size:13px;color:var(--muted)}
+.c-name .t{font-family:var(--head);font-size:13px;color:var(--muted)}
 .c-power b{display:block}
 .pbar{display:block;height:6px;border-radius:2px;background:var(--line);overflow:hidden;margin-top:4px}
 .pbar>i{display:block;height:100%;background:var(--gold)}
@@ -149,7 +149,7 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 .rbadge.tk{background:var(--navy);color:var(--gold)}
 .cst{font-size:12.5px;font-weight:700;color:var(--muted)}
 .cst.done{color:var(--ok)}.cst.go{color:var(--navy)}
-.ccard h3{margin:0;font-family:var(--serif);font-size:19px;color:var(--navy);line-height:1.3}
+.ccard h3{margin:0;font-family:var(--head);font-size:19px;color:var(--navy);line-height:1.3}
 .ccard p{margin:0;font-size:13.5px;color:var(--muted)}
 .segs{display:flex;gap:3px}
 .segs.s20{gap:2px}
@@ -165,7 +165,7 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
 /* ---- phái ---- */
 .sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:12px}
 .scard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px;min-width:0}
-.scard .sn{font-family:var(--serif);font-size:16px;font-weight:700;color:var(--navy)}
+.scard .sn{font-family:var(--head);font-size:16px;font-weight:700;color:var(--navy)}
 .scard .sc{font-size:12.5px;color:var(--muted)}
 .scard .sl{font-size:14px}
 .scard .sm{font-size:13px;color:var(--muted)}
@@ -239,7 +239,7 @@ header.top{background:var(--navy);color:#fff;border-bottom:4px solid var(--gold)
     </div>
   </div>
 </div>
-<script type="application/json" id="hub-data">{"hub":{"title":"Tàng Kinh Các","subtitle":"Thư viện khoá học tương tác · Phòng AD · Nhóm 1"},"members":["Ngô Đặng Ngọc Sơn","Trần Văn Hạnh","Trương Minh Khoa","Ninh Văn Toàn","Lê Tuấn Huy"],"endpoint":"","sects":["Nghiên cứu phân hủy","Khối phổ","Thiết kế thí nghiệm & AQbD","Sắc ký lỏng","Phổ hồng ngoại","Độ hòa tan","Kiến thức chung","Quy chế, tuân thủ","Sắc ký lớp mỏng","Sắc ký khí","Kích cỡ hạt","Xử lý mẫu","Phân tích nhiệt","Quang phổ tử ngoại","Độ khuếch tán","Thuốc bán rắn","Thuốc dược liệu","Thẩm định","Các ấn phẩm và chương trình đào tạo của EDQM","Chemometrics"],"courses":[],"_build":{"stamp":"23/11/2026 18:51"}}</script>
+<script type="application/json" id="hub-data">{"hub":{"title":"Tàng Kinh Các","subtitle":"Thư viện khoá học tương tác · Phòng AD · Nhóm 1"},"members":["Ngô Đặng Ngọc Sơn","Trần Văn Hạnh","Trương Minh Khoa","Ninh Văn Toàn","Lê Tuấn Huy"],"endpoint":"","sects":["Nghiên cứu phân hủy","Khối phổ","Thiết kế thí nghiệm & AQbD","Sắc ký lỏng","Phổ hồng ngoại","Độ hòa tan","Kiến thức chung","Quy chế, tuân thủ","Sắc ký lớp mỏng","Sắc ký khí","Kích cỡ hạt","Xử lý mẫu","Phân tích nhiệt","Quang phổ tử ngoại","Độ khuếch tán","Thuốc bán rắn","Thuốc dược liệu","Thẩm định","Các ấn phẩm và chương trình đào tạo của EDQM","Chemometrics"],"courses":[],"_build":{"stamp":"23/11/2026 19:06"}}</script>
 <script>
 /*__MODEL_START__*/
 /* Các công thức của Tàng Kinh Các (CONTRACT §4). Hàm thuần: không đụng tới trang, kiểm thử bằng node. */
@@ -685,7 +685,7 @@ var TKCModel = (function () {
     '.tkc-overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1000;background:rgba(8,22,30,.6);display:flex;padding:12px;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}',
     '.tkc-dialog{margin:auto;width:100%;max-width:380px;background:var(--card,#fff);color:var(--ink,#14232b);border-radius:12px;border-top:4px solid var(--gold,#CDC717);padding:14px 16px 16px;box-shadow:0 10px 40px rgba(0,0,0,.35);font-size:15px;line-height:1.45}',
     '.tkc-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px}',
-    '.tkc-title{margin:0;padding-top:10px;font-family:"Times New Roman",Times,"Noto Serif",serif;font-size:19px;font-weight:700;line-height:1.3;color:var(--ink,#14232b);overflow-wrap:break-word;overflow-wrap:anywhere;min-width:0}',
+    '.tkc-title{margin:0;padding-top:10px;font-family:Arimo,Arial,"Helvetica Neue",sans-serif;font-size:19px;font-weight:700;line-height:1.3;color:var(--ink,#14232b);overflow-wrap:break-word;overflow-wrap:anywhere;min-width:0}',
     '.tkc-hint{margin:0 0 10px;font-size:14px;color:var(--muted,#5d707a)}',
     '.tkc-names{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-bottom:12px}',
     '.tkc-name{min-height:48px;padding:8px 14px;border-radius:8px;border:1px solid var(--line,#C8D3DA);background:var(--card,#fff);color:var(--ink,#14232b);font:inherit;font-size:16px;font-weight:600;text-align:left;cursor:pointer;overflow-wrap:break-word;overflow-wrap:anywhere}',
